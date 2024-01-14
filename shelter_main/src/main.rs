@@ -8,7 +8,7 @@ pub fn main() -> anyhow::Result<()> {
 
     let mut command = Command::new("Dog Shelter sample application")
         .version("1.0")
-        .author("Sandor Apati <sapati@gmail.com>")
+        .author("Sérgio Matheus <sergiomatheuss09@gmail.com>")
         .about("A sample application to experiment with Rust-based microservices")
         .arg(
             Arg::new("config")
